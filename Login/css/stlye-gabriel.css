@@ -1,3 +1,129 @@
-body {
-    background-color: tomato;
+body{
+
+background-color: #b5b67a;
+
 }
+
+html, body {
+ overflow: hidden;
+}
+
+#triangulo-para-cima {
+    display: block;
+  width: 0; 
+  height: 0; 
+  border-left: 180px solid transparent;
+  border-right: 180px solid transparent;
+  border-bottom: 300px solid #ffffff;
+  position: relative;
+  margin: -251px auto;
+  top:-337px;
+}
+
+#triangulo-para-cima2 {
+    display: block;
+  width: 0; 
+  height: 0; 
+  border-left: 250px solid transparent;
+  border-right: 250px solid transparent;
+  border-bottom: 400px solid #fbff05;
+  position: relative;
+  left: 465px;
+  top: 281px;
+
+}
+
+.imgNey2 { 
+	width:384px;
+	height:454px;
+	background-image:url(79_798251_neymar_brazil_png_2018_clipart_image_neymar_png_removebg_preview_1.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+    position: relative;
+  left: 555px;
+  top: -540px;
+}
+.imgNey { 
+	width:672px;
+	height:569px;
+	background-image:url(305_3058498_transparent_neymar_brazil_png_png_download_removebg_preview_1.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+    position: relative;
+  left: 465px;
+  top: -288px;
+}
+
+.textoNey { 
+	color:rgb(0, 0, 0);
+	width:91px;
+	height:0px;
+    font-size: 50px;
+	font-family:JejuGothic;
+    position: relative;
+  left: 967px;
+
+
+}
+
+.paragrafoNey { 
+	color:rgba(0, 0, 0, 1);
+	width:225px;
+	height:87px;
+	position:absolute;
+	left:967px;
+	top:177px;
+	font-family:Noticia Text;
+	text-align:left;
+	font-size:14px;
+	letter-spacing:0;
+}
+
+.texto-animado { 
+    width:100%; 
+    margin:auto; 
+    display: block;
+    overflow:hidden;
+    position: relative;
+    right: 370px;
+    
+} 
+.texto-animado h1 {
+  margin-top: 5%;
+  font-size: 1.8em;
+  display: inline-block;
+  border-bottom: 1px #141111 solid;
+}
+.texto-animado h1 span {
+  
+  position: relative;
+  float: left;
+  font-family: 'open_sansbold';
+  color:#000000;
+}
+.texto-animado h1 span:first-child {
+  color: #000000;
+  margin-right: 1rem;
+  font-weight:bold;
+  font-family: 'open_sansbold';
+}
+.texto-animado p {
+  
+    width: auto;
+    display: block;
+    font-size: 0.9em;
+    color: #000000;
+    padding-top: 0.3em;
+    letter-spacing: 4.5px;
+  
+}
+
+.selecaoBr { 
+	width:295px;
+	height:155px;
+	background-image:url(Selecao-brasileira\ \(1\).webp);
+	background-repeat:no-repeat;
+	background-size:cover;
+    padding-left: -15px;
+}
+
